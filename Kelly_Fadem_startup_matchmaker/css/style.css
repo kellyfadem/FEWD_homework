@@ -1,0 +1,369 @@
+/* body */
+body {
+  background-color: rgb(199, 198, 197);
+}
+
+/*index header*/
+header {
+  background-color: rgb(0, 0, 0);
+  height: 143px;
+}
+.header_container_index {
+  width: 960px;
+  margin: 0 auto;
+}
+.logo {
+   margin-top: 24px;
+   font-family: "Minion Pro", serif;
+   font-size: 43px;
+   font-weight: 700;
+   letter-spacing: .9px;
+   color: rgb(251, 246, 39);
+   float: left;
+   width: 100%;
+}
+.nav_index {
+  float: right;
+  width: 78%;
+  padding-top: 23px;
+}
+nav div {
+  float: left;
+  letter-spacing: -.1px;
+  margin-left: 21px;
+  color: rgb(255, 255, 255);
+  font-family: "open sans", sans-serif;
+  font-size: 22px;
+}
+h4 {
+  font-family: "din condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  padding: 20px 30px 12px 30px;
+}
+.find_nav {
+  font-family: "din condensed", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+/*index yellow bar*/
+.yellow_bar {
+  float: left;
+  width: 100%;
+  background-color: rgb(251, 246, 39);
+  height: 4px;
+}
+
+/*index gray bar*/
+.gray_bar {
+  float: left;
+  width: 100%;
+  background-color: rgb(199, 198, 197);
+  height: 90px;
+  box-shadow: inset 0px 5px 7px gray;
+}
+.gray_bar_container {
+  width: 960px;
+  margin: 0 auto;
+}
+h3 {
+  font-family: "Minion Pro", serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+.gray_bar_text {
+  margin-top: 30px;
+  font-style: italic;
+  text-align: center;
+}
+.taste {
+  text-decoration: line-through;
+  color: rgb(153, 153, 153);
+}
+.are {
+  border-bottom: 4px solid rgb(251, 246, 39);
+}
+
+/*index background image and meet your match*/
+.background_image {
+  float:left;
+  width: 100%;
+  background-image: url("../images/coworking.jpg");
+  background-size: 100%;
+  background-position: center;
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+.meet_your_match_container {
+    width: 960px;
+    margin: auto;
+}
+.meet_your_match_overlay {
+  float: right;
+  width: 325px;
+  padding: 30px 22px;
+  background-color: rgba(255, 255, 255, .8);
+  margin: 30px;
+  box-shadow: 0px 0px 10px 0px rgb(102, 103, 102);
+}
+h2 {
+  margin: 10px;
+  font-family: "open sans", sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -.25px;
+}
+p {
+  margin: 15px;
+  font-family: "open sans", sans-serif;
+  font-size: 22px;
+  font-weight: 50;
+  letter-spacing: -.5px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+.yellow_button_index {
+  background-color: rgb(251, 245, 79);
+  padding-bottom: -15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px rgb(204, 204, 0);
+  margin: 40px 15px 10px 15px;
+}
+
+/*index three sections*/
+.three_sections {
+  float: right;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 50px;
+}
+.three_sections_container {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.create_a_profile {
+  float: left;
+  width: 29%;
+  padding: 20px 20px;
+}
+.find_a_developer {
+  float: left;
+  width: 29%;
+  padding: 20px 20px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.find_a_designer {
+  float: left;
+  width: 29%;
+  padding: 20px 20px;
+}
+section div section h3 {
+  margin:10px;
+}
+section div section p {
+  margin: 5px;
+}
+.gray_button {
+  background-color: rgb(199, 198, 197);
+  margin-top: 20px;
+  margin-bottom:40px;
+  padding-bottom: -15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px rgb(153, 153, 153);
+}
+
+/*main page footer*/
+footer {
+  clear: both;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+.footer_container {
+  width: 960px;
+  margin: auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/*developers header*/
+body .header_developers {
+  height: 48px;
+}
+.nav_active_page {
+  padding:5px 10px 14px 10px;
+  background-color: rgb(102, 103, 102);
+}
+.header_container_developers {
+  width: 960px;
+  margin: auto;
+}
+.logo_developers {
+  margin-top: 10px;
+  font-family: "Minion Pro", serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: .4px;
+  color: rgb(251, 246, 39);
+  float: left;
+  width: 25%%;
+}
+.nav_developers {
+  float: right;
+  width: 50%;
+}
+.nav_developers a {
+  float: left;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+.nav_developers div {
+  float: left;
+  letter-spacing: -.1px;
+  margin-left: 21px;
+  color: rgb(255, 255, 255);
+  font-family: "open sans", sans-serif;
+  font-size: 14.5px;
+  padding-top: 15px;
+}
+.find_nav_developers {
+  font-family: "din condensed", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+/*yellow bar developers*/
+.yellow_bar_developers {
+  float: left;
+  width: 100%;
+  background-color: rgb(251, 246, 39);
+  height: 2px;
+}
+
+
+/*main content developers page*/
+
+.main_content_container_developers {
+  width: 960px;
+  margin: auto;
+}
+
+/*row one*/
+.row_one {
+  float: left;
+  width: 100%;
+  margin-top:10px;
+}
+
+/*row two*/
+.row_two {
+  float: left;
+  width: 100%;
+}
+
+/*row three*/
+.row_three {
+  float: left;
+  width: 100%;
+}
+
+.white_box {
+  float: left;
+  width: 22.5%;
+  background-color: white;
+  margin: 7px;
+  padding: 3px;
+}
+
+.gray_image_box {
+  margin: 5px;
+  float 99%;
+  background-color: rgb(199, 198, 197);
+  box-shadow: inset 0px 0px 7px 0px rgb(153, 153, 153);
+}
+
+.image_size_text {
+  width: 100%;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-family:"din condensed", sans-serif;
+  font-size: 21px;
+  font-weight: light;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(153, 153, 153);
+}
+
+.gray_image_box .image_size_text .x {
+  font-size: 15px;
+  margin: 2px;
+}
+
+.some_person {
+  font-size: 15px;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.little_gray_buttons {
+  float:left;
+  background-color: rgb(102, 103, 102);
+  margin-top: 0;
+  margin-left: 3px;
+  border-radius: 15px;
+  height: 18px;
+
+}
+
+.little_gray_buttons_text {
+  color: white;
+  font-size: 10px;
+  letter-spacing: .5px;
+  text-align: center;
+  margin-top: 1px;
+  padding: 1px 4px;
+
+}
+
+.yellow_button_developers {
+  float:left;
+  width: 95%;
+  margin: 5px;
+  margin-top:10px;
+  margin-bottom: 8px;
+  background-color: rgb(251, 246, 39);
+  border-radius: 5px;
+  box-shadow: 0px 3px rgb(204, 204, 0);
+}
+
+.contact {
+  font-family: "din condensed", sans-serif;
+  font-size: 17px;
+  letter-spacing: .5px;
+  text-align: center;
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+
+
+
+
+
+
+
+/*developers main content*/
