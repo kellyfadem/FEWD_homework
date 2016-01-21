@@ -1,0 +1,88 @@
+/* body */
+body {
+  background: .EEE;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 50px;
+  padding: 0;
+}
+
+/* add class background colors */
+body.white {
+  background: white;
+}
+body.gray {
+  background: gray;
+}
+body.blue {
+  background: blue;
+}
+body.green {
+  background: green;
+}
+body.yellow {
+  background: yellow;
+}
+body.orange {
+  background: orange;
+}
+body.red {
+  background: red;
+}
+
+/* input */
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+  line-height: 1.2;
+}
+.c-input-form {
+  width: 20em;
+  margin: auto;
+}
+.submit-celsius-temperature {
+  background: .333;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+}
+.submit-celsius-temperature input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+  box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.submit-celsius-temperature input:focus {
+  outline: none;
+  border-color: rgba(255,255,255,.75);
+}
+
+/* output */
+.f-output-box {
+  width: 100%;
+  float: left;
+  /*background-color: red;*/
+}
+.fahrenheit-output {
+  width: 46%;
+  text-align: right;
+  float: left;
+  padding-right: 0;
+  margin-right: 0;
+  /*background-color: blue;*/
+}
+.degrees {
+  width: 46%;
+  text-align: left;
+  float: right;
+  padding-left: 0;
+  margin-left: 0;
+  /*background-color: yellow;*/
+}
